@@ -1,0 +1,122 @@
+{
+  "projectType": "saas",
+  "projectName": "DashboardLogs",
+  "projectDescription": "AI-powered log management and diagnostics platform with intelligent analysis, real-time monitoring, and voice-controlled assistant",
+  "theme": "aspen",
+  "primaryColor": "#04b4f7",
+  "lightColor": "#050a0d",
+  "darkColor": "#c6c6c7",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "installation"
+            ]
+          },
+          {
+            "group": "Core Features",
+            "pages": [
+              "features/santoro-ai",
+              "features/log-monitoring",
+              "features/diagnostics",
+              "features/statistics"
+            ]
+          },
+          {
+            "group": "User Guide",
+            "pages": [
+              "guides/authentication",
+              "guides/dashboard",
+              "guides/events",
+              "guides/employee-management",
+              "guides/data-export"
+            ]
+          },
+          {
+            "group": "Santoro AI Assistant",
+            "pages": [
+              "santoro/overview",
+              "santoro/voice-controls",
+              "santoro/gemini-integration",
+              "santoro/commands"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Services",
+            "pages": [
+              "api/auth-service",
+              "api/diagnostic-service",
+              "api/catalog-service",
+              "api/export-service"
+            ]
+          },
+          {
+            "group": "AI Components",
+            "pages": [
+              "api/santoro-ai",
+              "api/santoro-integrator",
+              "api/voice-service"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Configuration",
+        "groups": [
+          {
+            "group": "Setup",
+            "pages": [
+              "config/environment",
+              "config/api-configuration",
+              "config/gemini-setup"
+            ]
+          },
+          {
+            "group": "Deployment",
+            "pages": [
+              "config/build",
+              "config/production"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "AI-powered log analysis with Santoro assistant",
+    "Voice-controlled interface with speech recognition",
+    "Real-time event monitoring and diagnostics",
+    "Interactive dashboards and statistics",
+    "Google Gemini AI integration",
+    "Employee and user management",
+    "Data export to PDF and Excel",
+    "QR code scanning functionality",
+    "Map-based visualizations with Leaflet"
+  ],
+  "publicApiSurface": [
+    "santoroAI.procesarPregunta()",
+    "santoroAI.configurarApiKey()",
+    "santoroAI.inicializar()",
+    "authService.login()",
+    "authService.logout()",
+    "authService.checkSession()",
+    "diagnosticService.buscarErrores()",
+    "diagnosticService.obtenerEventos()",
+    "catalogService.obtenerCatalogo()",
+    "exportService.exportarDatos()",
+    "santoroIntegrator.ejecutarAccion()",
+    "santoroVoiceService.hablar()",
+    "santoroVoiceService.escuchar()"
+  ]
+}
